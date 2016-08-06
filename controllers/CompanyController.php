@@ -156,6 +156,8 @@ class CompanyController extends Controller
 
         $queryRetrieve = Company::find()->where(['email'=>$model->email])->one();
 
+        if($queryRetrieve == TRUE) {
+
         Yii::$app->mailer->compose()
           ->setFrom('resumeditorcom@gmail.com')
           ->setTo($model->email)
