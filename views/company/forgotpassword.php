@@ -62,3 +62,12 @@ $this->title = "Forgot Password";
 
 
 <?php endif; ?>
+
+<?php if(Yii::$app->session->hasFlash('account_notfound')): ?>
+
+  <script>alert('Your Email Not Registered')</script>
+
+
+
+
+<?php endif; ?>

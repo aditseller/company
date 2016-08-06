@@ -183,7 +183,11 @@ class CompanyController extends Controller
         return $this->refresh();
 
 
+      } else {
+        Yii::$app->session->setFlash('account_notfound');
+
       }
+    }
       return $this->render('forgotpassword',[
 
         'model' => $model,
