@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'adminEmail' => 'admin@example.com',
+    'adminEmail' => 'admin@gudangjob.com',
     'siteName' => 'Company Zone',
-    'siteUrl' => 'http://resumeditor.com/',
+    'siteUrl' => 'http://gudangjob.com/',
 ];

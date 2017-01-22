@@ -46,7 +46,7 @@ $this->title = 'Update Company : ' . ' ' . $model->company;
 
 
   <div class="form-group">
-      <?= Html::submitButton('Update', ['class' =>'btn btn-primary btn-lg btn-block']) ?>
+      <?= Html::submitButton('Update', ['class' =>'btn btn-primary btn-lg']) ?>
   </div>
 
 

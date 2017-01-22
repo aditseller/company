@@ -65,7 +65,7 @@ date_default_timezone_set('Asia/Jakarta');
 
 
     <div class="form-group col-md-12">
-        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success btn-lg btn-block' : 'btn btn-primary btn-lg btn-block']) ?>
+        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success btn-lg' : 'btn btn-primary btn-lg']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
